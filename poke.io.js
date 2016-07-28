@@ -17,7 +17,7 @@ var events = require('events');
 var ProtoBuf = require('protobufjs');
 var GoogleOAuth = require('gpsoauthnode');
 var fs = require('fs');
-var S2 = require('s2-geometry');
+var S2 = require('s2-geometry').S2;
 
 var Logins = require('./logins');
 
